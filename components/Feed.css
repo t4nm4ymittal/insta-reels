@@ -1,0 +1,98 @@
+.feed-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.nav-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-icons{
+    margin: 0.5rem;
+    color: black;
+}
+
+.upload-btn{
+width: 15rem;
+height: 5rem;
+}
+
+.videos-container{
+height:76vh;
+border-radius: 15px;
+overflow-y:scroll ;
+
+}
+.videos-container::-webkit-scrollbar{
+    display: none;
+}
+.post-container{
+    height:76vh;
+    width: 20rem ;
+    margin-bottom: 1.4rem;
+    position: relative;
+}
+.post-container > video{
+    height:76vh;
+    width: 20rem;
+    object-fit: contain;
+    background-color: aqua;
+border-radius: 15px;
+position: relative;
+}
+.videos-info{
+
+position: absolute;
+bottom: 0;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 20rem;
+}
+.avatar-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+   
+}
+.avatar-container >p{
+    
+    margin-left: 0.7rem;
+}
+
+.post-like{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* .post-like >p{
+    margin-left: .4rem;
+    
+} */
+@media only screen and (max-width: 500px) {
+    .nav-icons {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .avatar-container{
+        padding-left:1rem ;
+    }
+  }  

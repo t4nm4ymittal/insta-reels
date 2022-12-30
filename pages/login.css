@@ -1,0 +1,69 @@
+.login-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-top: 8rem;
+     text-align: center;
+   
+    flex-direction: row;
+}
+.login-card
+{
+    width: 20rem;
+    
+    padding: 1rem;
+    border: 1px solid #ccc;
+    
+}
+.bottom-card
+{
+    border: 1px solid #ccc;
+    width: 20rem;
+    margin-top: 1rem;
+    padding: 1rem;
+
+
+}
+.carbg{
+    background-image: url('../styles/assets/bgcarb.png');
+    background: cover;
+    height: 590px;
+    width: 441px;
+    position: relative;
+    }
+
+ /* .car{
+    position: absolute;
+    height: 517px;
+    width: 252px;
+    left: 156px;
+    top: 42px;
+    z-index: 1;
+ }    */
+
+@media only  screen and (max-width:826px){
+
+.carbg
+{
+    display: none;
+}
+
+
+    
+}
+@media only  screen and (max-width:500px){
+    .login-card{
+        width: 100%;
+    }
+    .bottom-card{
+        width: 100%;
+    }
+    .carbg
+    {
+        display: none;
+    }
+    
+    
+        
+    }
